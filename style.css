@@ -25,7 +25,7 @@ body {
 }
 
 h1 {
-  font-size: 52px;
+  font-size: 56px;
   color: var(--secondary-color);
 }
 
@@ -65,7 +65,7 @@ h1 {
   position: absolute;
   bottom: 0;
   left: 0;
-  animation: rotate 3s linear infinite;
+  animation: rotate 10s linear infinite;
 
   animation-play-state: paused;
 }
@@ -94,7 +94,7 @@ h1 {
 .action-btn {
   background-color: #fff;
   border: 0;
-  color: #dfdbdf;
+  color: #e7bd8db0;
   font-size: 20px;
   cursor: pointer;
   padding: 10px;
@@ -102,7 +102,7 @@ h1 {
 }
 
 .action-btn.action-btn-big {
-  color: #cdc2d0;
+  color: #e2a258;
   font-size: 30px;
 }
 
@@ -129,8 +129,10 @@ h1 {
   transform: translateY(-100%);
 }
 
-.music-info h4 {
+.music-info h3 {
   margin: 0;
+  font-size: 22px;
+  color: var(--secondary-color);
 }
 
 .progress-container {
@@ -143,7 +145,7 @@ h1 {
 }
 
 .progress {
-  background-color: #fe8daa;
+  background-color: #e7b67db0;
   border-radius: 5px;
   height: 100%;
   width: 0%;
